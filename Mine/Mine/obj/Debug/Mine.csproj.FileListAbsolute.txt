@@ -1,0 +1,10 @@
+C:\Users\CanftIn\Desktop\Mine\Mine\bin\Debug\Mine.exe.config
+C:\Users\CanftIn\Desktop\Mine\Mine\bin\Debug\Mine.exe
+C:\Users\CanftIn\Desktop\Mine\Mine\bin\Debug\Mine.pdb
+C:\Users\CanftIn\Desktop\Mine\Mine\obj\Debug\Mine.csprojResolveAssemblyReference.cache
+C:\Users\CanftIn\Desktop\Mine\Mine\obj\Debug\Mine.FrmCustomize.resources
+C:\Users\CanftIn\Desktop\Mine\Mine\obj\Debug\Mine.FrmMain.resources
+C:\Users\CanftIn\Desktop\Mine\Mine\obj\Debug\Mine.Properties.Resources.resources
+C:\Users\CanftIn\Desktop\Mine\Mine\obj\Debug\Mine.csproj.GenerateResource.Cache
+C:\Users\CanftIn\Desktop\Mine\Mine\obj\Debug\Mine.exe
+C:\Users\CanftIn\Desktop\Mine\Mine\obj\Debug\Mine.pdb

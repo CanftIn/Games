@@ -1,0 +1,9 @@
+D:\MuXiangProjects\Mine\Mine\bin\Release\Mine.exe.config
+D:\MuXiangProjects\Mine\Mine\bin\Release\Mine.exe
+D:\MuXiangProjects\Mine\Mine\bin\Release\Mine.pdb
+D:\MuXiangProjects\Mine\Mine\obj\Release\Mine.FrmCustomize.resources
+D:\MuXiangProjects\Mine\Mine\obj\Release\Mine.FrmMain.resources
+D:\MuXiangProjects\Mine\Mine\obj\Release\Mine.Properties.Resources.resources
+D:\MuXiangProjects\Mine\Mine\obj\Release\Mine.csproj.GenerateResource.Cache
+D:\MuXiangProjects\Mine\Mine\obj\Release\Mine.exe
+D:\MuXiangProjects\Mine\Mine\obj\Release\Mine.pdb
