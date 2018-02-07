@@ -16,7 +16,7 @@ namespace Jumper.Screens
         {
             this.MenuItem("F2: Play Game", Keys.F2, (e) =>
             {
-                //this.Controller.OpenScreen(typeof(PlayingScreen));
+                this.Controller.OpenScreen(typeof(PlayingScreen));
                 Debug.WriteLine("F2");
             });
             this.MenuItem("F3: Read My Blog", Keys.F3, (e) =>

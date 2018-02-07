@@ -53,13 +53,28 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Playing\Gameobjects\Player.cs" />
+    <Compile Include="Playing\Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Playing\World.cs" />
+    <Compile Include="Playing\WorldCrashException.cs" />
+    <Compile Include="Playing\WorldObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\GameOverScreen.cs" />
     <Compile Include="Screens\GameScreen.cs" />
     <Compile Include="Screens\MenuScreen.cs" />
+    <Compile Include="Screens\PlayingScreen.cs" />
     <Compile Include="Screens\StartScreen.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playing\Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,7 +98,84 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\BrokenBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlyingHat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumpAndBreakBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumperCollapsed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumperExpanded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonsterA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MonsterB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MovingBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerLeftFaint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerLeftWithHat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerLeftWithHat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerLeftWithRocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerLeftWithRocket2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerRightFaint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerRightWithHat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerRightWithHat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerRightWithRocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerRightWithRocket2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StaticBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimeoutAndBreakBlockA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimeoutAndBreakBlockB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimeoutAndBreakBlockC.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

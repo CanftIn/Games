@@ -7,3 +7,4 @@ F:\2018\Games\Jumper\Jumper\obj\Debug\Jumper.Properties.Resources.resources
 F:\2018\Games\Jumper\Jumper\obj\Debug\Jumper.csproj.GenerateResource.Cache
 F:\2018\Games\Jumper\Jumper\obj\Debug\Jumper.exe
 F:\2018\Games\Jumper\Jumper\obj\Debug\Jumper.pdb
+F:\2018\Games\Jumper\Jumper\obj\Debug\Jumper.Playing.Images.resources
