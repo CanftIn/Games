@@ -13,7 +13,7 @@ here are some games I made for exercising
 
 [Calc](./Calc)
 
-[Tic Tac Toe](./Tic Tac Toe)
+[Tic Tac Toe](./Tic_Tac_Toe)
 
 ---
 ## Designs
