@@ -21,7 +21,7 @@ namespace Calc
         {
             string str = InputExp.Text;
             int result = 0;
-            while(true)
+            //while(true)
             {
                 if(calc(ref str, ref result))
                 {
@@ -93,15 +93,17 @@ namespace Calc
         public bool term(ref int i, int end, ref int result)
         {
             if (!factor(ref i, end, ref result)) return false;
-            while(true)
+            //if (number(ref i, end, ref result)) return true;
+            while (true)
             {
                 var j = i;
                 var op = test_char(ref j, end, "*/");
                 if (op != '\0')
                 {
                     int next = 0;
+                    //if (number(ref i, end, ref next)) return true;
                     if (!factor(ref j, end, ref next)) return true;
-                    result = op == '*'
+                    result = (op == '*')
                         ? result * next
                         : result / next;
                     i = j;
@@ -115,8 +117,7 @@ namespace Calc
 
         public bool exp(ref int i, int end, ref int result)
         {
-            //if (!term(ref i, end, ref result)) return false;
-            if (!number(ref i, end, ref result)) return true;
+            if (!term(ref i, end, ref result)) return false;
             while (true)
             {
                 var j = i;
@@ -124,7 +125,8 @@ namespace Calc
                 if (op != '\0')
                 {
                     int next = 0;
-                    if (number(ref j, end, ref next)) return true;
+                    if (term(ref j, end, ref next)) return true;
+                    //if (number(ref j, end, ref next)) return true;
                     result = (op == '+')
                         ? result + next
                         : result - next;
