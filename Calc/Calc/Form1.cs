@@ -51,19 +51,28 @@ namespace Calc
         {
             if (i == end) return (char)0;
             var result = candidates.IndexOf(getStrIndexOf(i));
-            if (result == 0) return (char)0;
+            if (result == -1) return (char)0;
             i++;
-            return getStrIndexOf(i);
+            int n = i;
+            n--;
+            return getStrIndexOf(n);
         }
 
         bool number(ref int i, int end, ref int result)
         {
             result = 0;
             int j = i;
-            while (j != end && '0' <= getStrIndexOf(j) && getStrIndexOf(j) <= '9')
+            while ('0' <= getStrIndexOf(j) && getStrIndexOf(j) <= '9')
             {
                 result = result * 10 + (getStrIndexOf(j) - '0');
-                j++;
+                if(j == end)
+                {
+                    break;
+                }
+                else
+                {
+                    j++;
+                }
             }
             if (i == j) return false;
             i = j;
@@ -106,16 +115,17 @@ namespace Calc
 
         public bool exp(ref int i, int end, ref int result)
         {
-            if (!term(ref i, end, ref result)) return false;
-            while(true)
+            //if (!term(ref i, end, ref result)) return false;
+            if (!number(ref i, end, ref result)) return true;
+            while (true)
             {
                 var j = i;
                 var op = test_char(ref j, end, "+-");
                 if (op != '\0')
                 {
                     int next = 0;
-                    if (!factor(ref j, end, ref next)) return true;
-                    result = op == '+'
+                    if (number(ref j, end, ref next)) return true;
+                    result = (op == '+')
                         ? result + next
                         : result - next;
                     i = j;
