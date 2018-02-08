@@ -16,6 +16,9 @@ here are some games I made for exercising
 [Tic Tac Toe](./Tic_Tac_Toe)
 
 [Painter](./Painter)
+
+[AnalogClock](./AnalogClock)
+
 ---
 ## Tools
 
