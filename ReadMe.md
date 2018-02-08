@@ -26,6 +26,8 @@ here are some games I made for exercising
 
 [ImageViewer](./ImageViewer)
 
+[Image_Editor](./Image_Editor)
+
 ---
 ## Designs
 
