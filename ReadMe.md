@@ -28,7 +28,15 @@ here are some games I made for exercising
 
 [Image_Editor](./Image_Editor)
 
+[Painter++](./Painter++)
+
 ---
 ## Designs
 
 [YouTubeDemo](./YouTubeDemo)
+
+---
+
+## LICENSE
+[LICENSE](./LICENSE)
+
