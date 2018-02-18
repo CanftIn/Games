@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 524b95578f860df4d8885af30491b2cb
+timeCreated: 1438306857
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: apple0
+    21300002: apple1
+    21300004: tao0
+    21300006: tao1
+    21300008: cs0
+    21300010: cs1
+    21300012: cs2
+    21300014: xg0
+    21300016: xg1
+    21300018: xj0
+    21300020: xj1
+    21300022: xj2
+    21300024: jpg0
+    21300026: jpg1
+    21300028: l0
+    21300030: l1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: apple0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: apple1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 446
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tao0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 448
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tao1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 116
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cs0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 211
+        height: 251
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cs1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cs2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xg0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 169
+        width: 152
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xg1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 322
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xj0
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 47
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xj1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 452
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xj2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 402
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jpg0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 194
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jpg1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 344
+        width: 104
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: l0
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: l1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 81
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

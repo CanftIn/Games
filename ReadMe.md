@@ -19,6 +19,8 @@ here are some games I made for exercising
 
 [AnalogClock](./AnalogClock)
 
+[CutFruit](./CutFruit)
+
 ---
 ## Tools
 

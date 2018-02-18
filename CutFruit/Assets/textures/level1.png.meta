@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 3c519fccb9d07834e96c71ffc1a7d7ae
+timeCreated: 1438309297
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: knifeRay
+    21300002: wz0
+    21300004: wz1
+    21300006: wz2
+    21300008: score1
+    21300010: score2
+    21300012: goldTip
+    21300014: d1
+    21300016: d0
+    21300018: d8
+    21300020: d7
+    21300022: d9
+    21300024: d3
+    21300026: d5
+    21300028: d2
+    21300030: d6
+    21300032: d4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: knifeRay
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 587
+        width: 351
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wz0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wz1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 150
+        height: 193
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wz2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 293
+        width: 173
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: score1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 439
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: score2
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goldTip
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 388
+        height: 294
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 295
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d0
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d8
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 73
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 74
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 148
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d5
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 148
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 221
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 366
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: d4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 295
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
